@@ -17,16 +17,6 @@ export function Interests() {
         Mechanical Engineering, my interest in cars comes naturally. Both
         passions reflect my appreciation for thoughtful design, attention to
         detail, creativity, and the beauty of understanding how things work.
-        {/* {" "} */}
-        {/* <a
-          className="personal-website-link"
-          href="https://www.nirmal-thanga.com"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Click here for Personal Website
-        </a> */}
-        {/* . */}
       </Reveal>
       <div className="ints">
         <ArtSketch />
