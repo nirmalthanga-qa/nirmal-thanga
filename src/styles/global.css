@@ -206,7 +206,7 @@ body.menu .menu {
   gap: clamp(1.5rem, 4vw, 4rem);
   align-content: center;
   align-items: center;
-  max-width: 1180px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 5.5rem clamp(1.25rem, 4vw, 2.5rem) 2rem;
   opacity: 0;
@@ -358,7 +358,7 @@ body.menu .menu {
 
 /* sections */
 .sec {
-  max-width: 1180px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: clamp(4rem, 9vw, 7rem) clamp(1.25rem, 4vw, 2.5rem);
   border-top: 1px solid var(--line);
@@ -1051,7 +1051,7 @@ body.menu .menu {
 .next {
   padding: 6rem clamp(1.25rem, 4vw, 2.5rem);
   border-top: 1px solid var(--line);
-  max-width: 1180px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 .next h2 {
@@ -1584,6 +1584,7 @@ footer {
 }
 .contact-bg > .sec {
   position: relative;
+  max-width: 1440px;
 }
 
 /* Let's connect: looping chat conversation */

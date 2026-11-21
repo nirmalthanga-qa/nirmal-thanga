@@ -11,6 +11,6 @@ export const aboutParagraphs: readonly string[] = [
 ];
 
 export const stats: readonly Stat[] = [
-  { value: 8, suffix: "+", label: "years in quality engineering" },
-  { value: 3, label: "manual, automation, ai-driven" },
+  { value: 8, suffix: "+", label: "Years in Quality Engineering" },
+  { value: 3, label: "Manual, Automation, AI-Driven" },
 ];
