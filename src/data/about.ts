@@ -5,12 +5,12 @@ export interface Stat {
 }
 
 export const aboutParagraphs: readonly string[] = [
-  "I’m Nirmal Kumar Thangaraju, a senior SDET with 9+ years in quality engineering. I turn product requirements into automated checks that run on every pull request and tell the team what broke and why.",
-  "Most of my career has been on healthcare and government products, where privacy and accessibility are requirements. I test for HIPAA-aware data handling and Section 508 and WCAG compliance from the first sprint, not the last.",
-  "Right now I’m exploring how AI agents can plan, write and repair Playwright tests, and where a person still needs to make the call.",
+  "I’m Nirmal Kumar Thangaraju, a Senior SDET with 9+ years of experience in Software Quality Engineering, specializing in test automation, quality strategy, and building scalable testing solutions.",
+  "I bring expertise in software quality assurance, advanced test automation, and framework architecture, with a strong understanding of system design, integration, and distributed systems debugging. I focus on transforming business requirements into reliable, maintainable automated tests that integrate seamlessly into CI/CD pipelines, enabling faster feedback, early defect detection, and confident software releases.",
+  "With a strong emphasis on continuous improvement and engineering excellence, I’m also exploring AI-driven testing and next-generation quality engineering, particularly how AI agents can plan, generate, and maintain automated tests while keeping human judgment at the center of quality decisions.",
 ];
 
 export const stats: readonly Stat[] = [
-  { value: 8, suffix: "+", label: "Years in Quality Engineering" },
+  { value: 9, suffix: "+", label: "Years in Quality Engineering" },
   { value: 3, label: "Manual, Automation, AI-Driven" },
 ];

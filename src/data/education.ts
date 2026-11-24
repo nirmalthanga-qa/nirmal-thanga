@@ -6,22 +6,27 @@ export interface EducationItem {
 
 /** Shown on the right of the Education section. */
 export const educationFocus: readonly string[] = [
-  "Quality Engineering",
-  "Lean Six Sigma",
-  "Operations Management",
+  "Software Quality Assurance",
+  "Advanced Test Automation",
+  "System Design & Distributed Debugging",
+  "AI & Next-gen Quality Engineering",
   "Continuous Improvement",
-  "Organizational Dynamics",
 ];
 
 export const education: readonly EducationItem[] = [
   {
     title: "Master of Science in Technology",
-    meta: "University of Central Missouri, USA - 2016",
+    meta: "University of Central Missouri, USA - Dec 2016",
     description:
       "Focused on building quality into products and processes through measurement, standards and continuous improvement.",
   },
   {
     title: "Graduate Certification in Lean Six Sigma",
-    meta: "American Society for Quality, USA - 2016",
+    meta: "American Society for Quality (ASQ)",
+  },
+  {
+    title:
+      "Build AI Agents for Software Testing & Testing AI Systems with DeepEval",
+    meta: "Udemy",
   },
 ];

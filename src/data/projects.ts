@@ -39,6 +39,11 @@ export const projectGroups: readonly ProjectGroup[] = [
     title: "Personal projects",
     projects: [
       {
+        title: "Freelance SDET | QA Projects",
+        description:
+          "Offering freelance QA support to help businesses deliver reliable, high-quality software through comprehensive testing and quality assurance. Specializing in end-to-end test automation using Playwright with TypeScript, covering critical user journeys, UI workflows, and API validation.",
+      },
+      {
         title: "SDET Learning Hub",
         description:
           "A learning platform for software testers with guided lessons in quality engineering, TypeScript, Playwright, Cypress, API testing, and AI-assisted testing. Learners can follow a roadmap and track their progress as they complete each lesson.",
@@ -56,11 +61,11 @@ export const projectGroups: readonly ProjectGroup[] = [
           label: "Visit SDET Practice Lab ↗",
         },
       },
-      {
-        title: "Professional Portfolio",
-        description:
-          "My professional portfolio showcasing my quality engineering experience, skills, and development journey.",
-      },
+      // {
+      //   title: "Professional Portfolio",
+      //   description:
+      //     "My professional portfolio showcasing my quality engineering experience, skills, and development journey.",
+      // },
     ],
   },
 ];

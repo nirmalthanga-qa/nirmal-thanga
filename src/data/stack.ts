@@ -17,13 +17,17 @@ export const tools: readonly Tool[] = [
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
   },
   {
-    name: "JavaScript",
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+    name: "Python",
+    src: "src/assets/python.png",
   },
-  {
-    name: "SQL",
-    custom: "sql",
-  },
+  // {
+  //   name: "JavaScript",
+  //   src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+  // },
+  // {
+  //   name: "SQL",
+  //   custom: "sql",
+  // },
   {
     name: "Playwright",
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/playwright/playwright-original.svg",
@@ -62,19 +66,20 @@ export const tools: readonly Tool[] = [
   },
   {
     name: "Jira",
-    asset: "atlassian",
-    className: "supplied atlas-mark",
+    src: "src/assets/jira.png",
+    // asset: "atlassian",
+    // className: "supplied atlas-mark",
   },
   {
     name: "Zephyr",
     asset: "zephyr",
     className: "supplied white-paper",
   },
-  {
-    name: "TestRail",
-    asset: "testrail",
-    className: "supplied white-paper",
-  },
+  // {
+  //   name: "TestRail",
+  //   asset: "testrail",
+  //   className: "supplied white-paper",
+  // },
   {
     name: "Slack",
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/slack/slack-original.svg",
@@ -90,5 +95,9 @@ export const tools: readonly Tool[] = [
   {
     name: "GitHub Copilot",
     src: "https://cdn.simpleicons.org/githubcopilot/deecf5",
+  },
+  {
+    name: "AI Tools",
+    src: "src/assets/ai.png",
   },
 ];
