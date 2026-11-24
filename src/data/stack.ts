@@ -16,10 +16,8 @@ export const tools: readonly Tool[] = [
     name: "TypeScript",
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
   },
-  {
-    name: "Python",
-    src: "src/assets/python.png",
-  },
+
+  { name: "Python", src: "/python.png" },
   // {
   //   name: "JavaScript",
   //   src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
@@ -64,12 +62,11 @@ export const tools: readonly Tool[] = [
     name: "k6",
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/k6/k6-original.svg",
   },
-  {
-    name: "Jira",
-    src: "src/assets/jira.png",
-    // asset: "atlassian",
-    // className: "supplied atlas-mark",
-  },
+  { name: "Jira", src: "/jira.png" },
+
+  // asset: "atlassian",
+  // className: "supplied atlas-mark",
+  // },
   {
     name: "Zephyr",
     asset: "zephyr",
@@ -96,8 +93,5 @@ export const tools: readonly Tool[] = [
     name: "GitHub Copilot",
     src: "https://cdn.simpleicons.org/githubcopilot/deecf5",
   },
-  {
-    name: "AI Tools",
-    src: "src/assets/ai.png",
-  },
+  { name: "AI Tools", src: "/ai.png" },
 ];
