@@ -25,8 +25,7 @@ export const education: readonly EducationItem[] = [
     meta: "American Society for Quality (ASQ)",
   },
   {
-    title:
-      "Build AI Agents for Software Testing & Testing AI Systems with DeepEval",
+    title: "Build AI Agents for Software Testing",
     meta: "Udemy",
   },
 ];
