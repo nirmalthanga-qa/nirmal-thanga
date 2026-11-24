@@ -17,11 +17,11 @@ export const tools: readonly Tool[] = [
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
   },
 
-  { name: "Python", src: "/python.png" },
-  // {
-  //   name: "JavaScript",
-  //   src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
-  // },
+  // { name: "Python", src: "/python.png" },
+  {
+    name: "JavaScript",
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+  },
   // {
   //   name: "SQL",
   //   custom: "sql",
