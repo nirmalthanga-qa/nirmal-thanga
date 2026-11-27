@@ -10,8 +10,6 @@ const INITIAL = [
   "});",
   "",
   "// Your turn: type anything below",
-  "",
-  "",
 ].join("\n");
 
 /** A tiny, non-functional editor: line numbers, a live Ln/Col readout, nothing is executed. */
