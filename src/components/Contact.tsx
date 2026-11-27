@@ -71,8 +71,8 @@ export function Contact() {
             Let’s <span className="hl">connect</span>
           </h2>
           <p>
-            Have a Senior SDET opportunity or a question about one of my
-            projects?
+            Have a Senior Quality Engineering opportunity or a question about
+            one of my projects?
           </p>
           <div className="btns">
             {links.map((l) => (

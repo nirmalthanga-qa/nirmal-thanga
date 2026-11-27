@@ -16,6 +16,16 @@ export interface ProjectGroup {
 
 export const projectGroups: readonly ProjectGroup[] = [
   {
+    title: "Independent Consultant / Freelance Projects",
+    projects: [
+      {
+        title: "Software QA Support",
+        description:
+          "Offering freelance QA support to help businesses deliver reliable, high-quality software through comprehensive testing and quality assurance. Specializing in end-to-end test automation using Playwright with TypeScript, covering critical user journeys, UI workflows, and API validation.",
+      },
+    ],
+  },
+  {
     title: "US Federal Healthcare IT",
     projects: [
       {
@@ -38,11 +48,6 @@ export const projectGroups: readonly ProjectGroup[] = [
   {
     title: "Personal projects",
     projects: [
-      {
-        title: "Freelance SDET | QA Projects",
-        description:
-          "Offering freelance QA support to help businesses deliver reliable, high-quality software through comprehensive testing and quality assurance. Specializing in end-to-end test automation using Playwright with TypeScript, covering critical user journeys, UI workflows, and API validation.",
-      },
       {
         title: "SDET Learning Hub",
         description:

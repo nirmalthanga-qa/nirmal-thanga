@@ -3,7 +3,9 @@ export function ChatTalk() {
   return (
     <div className="chat" aria-hidden="true">
       <div className="row them">
-        <div className="msg m1">Hi Nirmal! Got a minute to talk about a Senior SDET role?</div>
+        <div className="msg m1">
+          Hi Nirmal! Got a minute to talk about a Quality Engineering roles?
+        </div>
       </div>
       <div className="row me">
         <div className="typing">
