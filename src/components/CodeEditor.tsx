@@ -1,17 +1,18 @@
-import { useEffect, useRef, useState, type ChangeEvent } from 'react';
+import { useEffect, useRef, useState, type ChangeEvent } from "react";
 
 const INITIAL = [
-  '// Confidence in every release',
-  "test('portfolio works', async ({ page }) => {",
+  "// Confidence in every release",
+  "test('portfolio works', ",
+  "async ({ page }) => {",
   "  await page.goto('/');",
   "  const title = page.locator('h1');",
-  '  await expect(title).toBeVisible();',
-  '});',
-  '',
-  '// Your turn: type anything below',
-  '',
-  '',
-].join('\n');
+  "  await expect(title).toBeVisible();",
+  "});",
+  "",
+  "// Your turn: type anything below",
+  "",
+  "",
+].join("\n");
 
 /** A tiny, non-functional editor: line numbers, a live Ln/Col readout, nothing is executed. */
 export function CodeEditor() {
@@ -20,15 +21,16 @@ export function CodeEditor() {
   const gutterRef = useRef<HTMLPreElement>(null);
   const areaRef = useRef<HTMLTextAreaElement>(null);
 
-  const lineCount = value.split('\n').length;
-  const gutter = Array.from({ length: lineCount }, (_, i) => i + 1).join('\n');
-  const beforeCaret = value.slice(0, caret).split('\n');
+  const lineCount = value.split("\n").length;
+  const gutter = Array.from({ length: lineCount }, (_, i) => i + 1).join("\n");
+  const beforeCaret = value.slice(0, caret).split("\n");
   const line = beforeCaret.length;
   const col = beforeCaret[beforeCaret.length - 1].length + 1;
 
   const syncCaret = () => setCaret(areaRef.current?.selectionStart ?? 0);
   const syncScroll = () => {
-    if (gutterRef.current && areaRef.current) gutterRef.current.scrollTop = areaRef.current.scrollTop;
+    if (gutterRef.current && areaRef.current)
+      gutterRef.current.scrollTop = areaRef.current.scrollTop;
   };
 
   useEffect(syncScroll, [value]);
